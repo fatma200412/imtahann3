@@ -1,0 +1,28 @@
+.tableData {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.table {
+  min-width: 75%;
+  margin-top: 20px;
+  border: 1px solid black;
+}
+.table .thead {
+  border: 1px solid black;
+}
+.table .thead th {
+  border: 1px solid black;
+}
+.table .tbody {
+  border: 1px solid black;
+}
+.table .tbody .tr {
+  border: 1px solid black;
+}
+.table .tbody .tr td {
+  border: 1px solid black;
+}

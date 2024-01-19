@@ -1,0 +1,84 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  /* position: absolute;
+  z-index: 2;
+  background-color: transparent; */
+}
+.navbar .element {
+  min-height: 8vh;
+  max-width: 1200px;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar .element .pulse h2 {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 36px;
+  font-weight: 500;
+}
+.navbar .element .pulse h2 span {
+  color: #ffb400;
+  font-size: 50px;
+}
+.navbar .element .navlists .lists {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar .element .navlists .lists .list {
+  padding-right: 20px;
+}
+.navbar .element .navlists .lists .list .link {
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none;
+}
+.navbar .element .navlists .lists .list .link:hover {
+  color: #ffb400;
+}
+.navbar .element .restel {
+  display: flex;
+  justify-content: space-around;
+}
+.navbar .element .restel .res {
+  color: #ffb400;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Times New Roman", Times, serif;
+  padding-right: 5px;
+}
+.navbar .element .restel .icon {
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Times New Roman", Times, serif;
+  padding-right: 5px;
+}
+.navbar .element .restel .phone {
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Times New Roman", Times, serif;
+}
+.navbar .element .menu {
+  display: none;
+  color: white;
+}
+@media only screen and (max-width: 600px) {
+  .navbar .element .menu {
+    display: block;
+  }
+  .navbar .element .restel {
+    display: none;
+  }
+  .navbar .element .navlists {
+    display: none;
+  }
+}

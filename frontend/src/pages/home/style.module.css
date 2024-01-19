@@ -1,0 +1,341 @@
+.slide1 {
+  min-height: 60vh;
+  background-image: url("https://preview.colorlib.com/theme/pulse/img/slider/slider-2.jpg.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slide2 {
+  min-height: 60vh;
+  background-image: url("https://preview.colorlib.com/theme/pulse/img/slider/slider-3.jpg.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slide3 {
+  min-height: 60vh;
+  background-image: url("https://preview.colorlib.com/theme/pulse/img/slider/slider-1.jpg.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slidertext h1 {
+  color: white;
+  font-size: 110px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 500;
+}
+.slidertext h1 span {
+  color: #ffb400;
+}
+.slidertext p {
+  text-align: right;
+  color: white;
+  font-size: 16px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 400;
+}
+
+.welcome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.welcome .element {
+  width: 75%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.welcome .element .icon {
+  color: RGB(138, 138, 138);
+  font-size: 65px;
+  font-weight: 400;
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
+  margin-bottom: 15px;
+}
+.welcome .element .linetext {
+  width: 75%;
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.welcome .element .linetext .line1 {
+  border-bottom: 1px solid #ffb400;
+  width: 40%;
+}
+.welcome .element .linetext p {
+  color: RGB(27, 26, 26);
+  font-size: 48px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 500;
+}
+.welcome .element .linetext .line2 {
+  border-bottom: 1px solid #ffb400;
+  width: 40%;
+}
+.welcome .element .abouts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.welcome .element .abouts .year {
+  color: RGB(27, 26, 26);
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+.welcome .element .abouts .about {
+  color: RGB(126, 126, 126);
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.testimonials {
+  min-height: 60vh;
+  background-image: url("https://preview.colorlib.com/theme/pulse/img/review-bg.jpg.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+.testimonials .icontextline {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 80%;
+}
+.testimonials .icontextline .icon {
+  color: white;
+  font-size: 65px;
+  font-weight: 400;
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
+  margin-bottom: 15px;
+}
+.testimonials .icontextline .linetext {
+  width: 75%;
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.testimonials .icontextline .linetext .line1 {
+  border-bottom: 2px solid #ffb400;
+  width: 40%;
+}
+.testimonials .icontextline .linetext p {
+  color: white;
+  font-size: 48px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 500;
+}
+.testimonials .icontextline .linetext .line2 {
+  border-bottom: 2px solid #ffb400;
+  width: 40%;
+}
+.testimonials .icontextline .dirnaq {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 24px;
+  font-weight: 400;
+}
+.testimonials .slides {
+  max-width: 50%;
+}
+
+.testimonials .slides .element {
+  /* color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center; */
+  min-width: 100px;
+}
+.testimonials .slides .element .paragraf {
+  /* text-align: center; */
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Times New Roman", Times, serif;
+}
+.testimonials .slides .element .client {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+.testimonials .slides .element .client span {
+  color: #ffb400;
+}
+
+.services {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.services .element {
+  width: 75%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.services .element .icon {
+  color: RGB(138, 138, 138);
+  font-size: 65px;
+  font-weight: 400;
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
+  margin-bottom: 15px;
+}
+.services .element .linetext {
+  width: 75%;
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.services .element .linetext .line1 {
+  border-bottom: 1px solid #ffb400;
+  width: 35%;
+}
+.services .element .linetext p {
+  color: RGB(27, 26, 26);
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 500;
+}
+.services .element .linetext .line2 {
+  border-bottom: 1px solid #ffb400;
+  width: 35%;
+}
+.services .element .abouts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.services .element .abouts .icon {
+  color: #ffb400;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+.services .element .abouts .year {
+  color: RGB(27, 26, 26);
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+.services .element .abouts .about {
+  color: RGB(126, 126, 126);
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.menu {
+  min-height: 60vh;
+  background-image: url("https://preview.colorlib.com/theme/pulse/img/menu-bg.jpg.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+.menu .element {
+  width: 75%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.menu .element .icon {
+  color: white;
+  font-size: 65px;
+  font-weight: 400;
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
+  margin-bottom: 15px;
+}
+.menu .element .linetext {
+  width: 75%;
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.menu .element .linetext .line1 {
+  border-bottom: 1px solid #ffb400;
+  width: 35%;
+}
+.menu .element .linetext p {
+  color: white;
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 500;
+}
+.menu .element .linetext .line2 {
+  border-bottom: 1px solid #ffb400;
+  width: 35%;
+}
+.menu .element .abouts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.menu .element .abouts .meals {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+.menu .element .abouts .meals:hover {
+  color: #ffb400;
+}
+.menu .element .data .grids .abouts {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+}
+
+.menu .element .data .grids .abouts p {
+  color: white;
+}
